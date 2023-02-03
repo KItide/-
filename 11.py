@@ -28,7 +28,7 @@ def CheckFinger(url,flag,keyworld):
                     continue
 
 if __name__ == "__main__":
-    Banner()
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode",dest="mode",help="设置检查类型 [check/get]")
     parser.add_argument("-u","--url",dest="url",help="指定需要检测的网站地址")
